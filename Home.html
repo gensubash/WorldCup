@@ -1,0 +1,516 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <title>World Cup 2018</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+    <link href="css.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript"></script>
+    <script src="http://connect.facebook.net/fr_FR/all.js"></script>
+    <script src="JavaScript.js"></script>
+
+    <script src="welcome.js"></script>
+</head>
+<body>
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0&appId=154060058598588&autoLogAppEvents=1';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+    <header class="bannerimg">
+        <br />
+        <br />
+        <br />
+        <br />
+
+    </header>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for games.." title="Type in a name">
+    <section>
+        <nav>
+            <h3>Players: </h3>
+            <ol>
+                <li><a href="https://www.facebook.com/nimesh.bohara"><font color="black">Nimesh</font></a></li>
+                <li><a href="https://www.facebook.com/sarthak.jthapa"><font color="black">Sarthak</font></a></li>
+                <li><a href="https://www.facebook.com/iamsulabh"><font color="black">Sulabh</font></a></li>
+                <li><a href="https://www.facebook.com/Pramod.Jung.Floyd"><font color="black">Pramod</font></a></li>
+                <li><a href="https://www.facebook.com/gensubash"><font color="black">Subash</font></a></li>
+                <li><a href="https://www.facebook.com/supaboe"><font color="black">Suprim</font></a></li>
+                <li><a href="https://www.facebook.com/RabinSakota"><font color="black">Rabin</font></a></li>
+                <li><a href="#"><font color="black">Samir</font></a></li>
+            </ol>
+            <hr />
+            <h3>Current Winner:</h3>
+            <hr />
+            <h6>Pramod</h6>
+            <hr />
+            <div class="alert">
+                <strong>Closely Following By!</strong>
+                <ol>
+
+                    <li>Subash</li>
+                    <li>Suprim</li>
+                    <li>Samir</li>
+                    <li>Sulabh, Sarthak & Rabin</li>
+
+                    <li>Nimesh</li>
+                </ol>
+            </div>
+            <ul>
+                <li><a href="Game.html">Games and Results</a></li>
+                <li><a href="Predictions.html">Predictions</a></li>
+
+            </ul>
+            <div class="fb-page" data-href="https://www.facebook.com/fifaworldcup/" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/fifaworldcup/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/fifaworldcup/">FIFA World Cup</a></blockquote></div>
+
+
+            <hr />
+            <a class="important" href="http://neosportek.blogspot.com/p/world-cup-page-2.html">Watch Live here</a>
+
+
+
+        </nav>
+        <article>
+            <table class="table" id="myTable">
+                <thead>
+                    <tr>
+                        <th scope="col">
+                            Games
+                        </th>
+                        <th scope="col">
+                            Result
+                        </th>
+
+                        <th scope="col">
+                            Nimesh
+                        </th>
+                        <th scope="col">Sarthak</th>
+                        <th scope="col">Sulabh</th>
+                        <th scope="col">Pramod</th>
+                        <th scope="col">Subash</th>
+                        <th scope="col">Suprim</th>
+                        <th scope="col">Rabin</th>
+                        <th scope="col">Samir</th>
+
+                    </tr>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Egypt VS Uruguay</td>
+                        <td>Uruguay</td>
+                        <td bgcolor="green">Uruguay</td>
+                        <td>Draw</td>
+                        <td bgcolor="green">Uruguay</td>
+                        <td bgcolor="green">Uruguay</td>
+                        <td bgcolor="green">Uruguay</td>
+                        <td bgcolor="green">Uruguay</td>
+                        <td bgcolor="green">Uruguay</td>
+                        <td>Draw</td>
+                    </tr>
+
+                    <tr>
+                        <td>Morocco VS Iran</td>
+                        <td>Iran</td>
+                        <td>Draw</td>
+                        <td>Morocco</td>
+                        <td>Draw</td>
+                        <td>Morocco</td>
+                        <td bgcolor="green">Iran</td>
+                        <td>Morocco</td>
+                        <td>Morocco</td>
+                        <td bgcolor="green">Iran</td>
+                    </tr>
+                    <tr>
+                    <tr>
+                        <td>Protugal VS Spain</td>
+                        <td>Draw</td>
+                        <td>Spain</td>
+                        <td>Spain</td>
+                        <td bgcolor="green">Draw</td>
+                        <td>Spain</td>
+                        <td>Spain</td>
+                        <td>Spain</td>
+                        <td>Spain</td>
+                        <td bgcolor="green">Draw</td>
+                    </tr>
+
+                    <tr>
+                        <td>France VS Australia</td>
+                        <td>France</td>
+                        <td bgcolor="green">France</td>
+                        <td bgcolor="green">France</td>
+                        <td bgcolor="green">France</td>
+                        <td bgcolor="green">France</td>
+                        <td bgcolor="green">France</td>
+                        <td bgcolor="green">France</td>
+                        <td bgcolor="green">France</td>
+                        <td bgcolor="green">France</td>
+                    </tr>
+                    <tr>
+                        <td>Argentina VS Iceland</td>
+                        <td>Draw</td>
+                        <td>Argentina</td>
+                        <td>Argentina</td>
+                        <td>Argentina</td>
+                        <td>Argentina</td>
+                        <td>Argentina</td>
+                        <td>Argentina</td>
+                        <td>Argentina</td>
+                        <td>Argentina</td>
+                    </tr>
+                    <tr>
+                        <td>Peru VS Denmark</td>
+                        <td>Denmark</td>
+                        <td>Draw</td>
+                        <td>Peru</td>
+                        <td bgcolor="green">Denmark</td>
+                        <td bgcolor="green">Denmark</td>
+                        <td bgcolor="green">Denmark</td>
+                        <td>Peru</td>
+                        <td bgcolor="green">Denmark</td>
+                        <td bgcolor="green">Denmark</td>
+                    </tr>
+                    <tr>
+                        <td>Croatia VS Nigeria</td>
+                        <td>Croatia</td>
+                        <td>Nigeria</td>
+                        <td>Draw</td>
+                        <td>Nigeria</td>
+                        <td bgcolor="green">Croatia</td>
+                        <td bgcolor="green">Croatia</td>
+                        <td bgcolor="green">Croatia</td>
+                        <td>Draw</td>
+                        <td bgcolor="green">Croatia</td>
+                    </tr>
+                    <tr>
+                        <td>Costa Rica VS Serbia</td>
+                        <td>Serbia</td>
+                        <td>Draw</td>
+                        <td>Costa Rica</td>
+                        <td>Draw</td>
+                        <td bgcolor="green">Serbia</td>
+                        <td>Costa Rica</td>
+                        <td>Costa Rica</td>
+                        <td>Costa Rica</td>
+                        <td>Draw</td>
+                    </tr>
+                    <tr>
+                        <td>Germany VS Mexico</td>
+                        <td>Mexico</td>
+                        <td>Germany</td>
+                        <td>Germany</td>
+                        <td>Germany</td>
+                        <td>Germany</td>
+                        <td>Germany</td>
+                        <td>Germany</td>
+                        <td>Germany</td>
+                        <td>Germany</td>
+                    </tr>
+                    <tr>
+                        <td>Brazil VS Switzerland</td>
+                        <td>Draw</td>
+                        <td>Brazil</td>
+                        <td>Brazil</td>
+                        <td>Brazil</td>
+                        <td>Brazil</td>
+                        <td>Brazil</td>
+                        <td>Brazil</td>
+                        <td>Brazil</td>
+                        <td>Brazil</td>
+                    </tr>
+                    <tr>
+                        <td>Sweden VS South Korea</td>
+                        <td>Sweden</td>
+                        <td>Draw</td>
+                        <td bgcolor="green">Sweden</td>
+                        <td>South Korea</td>
+                        <td bgcolor="green">Sweden</td>
+                        <td bgcolor="green">Sweden</td>
+                        <td bgcolor="green">Sweden</td>
+                        <td>Draw</td>
+                        <td>Draw</td>
+                    </tr>
+                    <tr>
+                        <td>Belgium VS Panama</td>
+                        <td>Belgium</td>
+                        <td bgcolor="green">Belgium</td>
+                        <td bgcolor="green">Belgium</td>
+                        <td bgcolor="green">Belgium</td>
+                        <td bgcolor="green">Belgium</td>
+                        <td bgcolor="green">Belgium</td>
+                        <td bgcolor="green">Belgium</td>
+                        <td bgcolor="green">Belgium</td>
+                        <td>Draw</td>
+                    </tr>
+                    <tr>
+                        <td>Tunisia VS England</td>
+                        <td>England</td>
+                        <td bgcolor="green">England</td>
+                        <td bgcolor="green">England</td>
+                        <td>Draw</td>
+                        <td bgcolor="green">England</td>
+                        <td bgcolor="green">England</td>
+                        <td bgcolor="green">England</td>
+                        <td bgcolor="green">England</td>
+                        <td bgcolor="green">England</td>
+                    </tr>
+                    <tr>
+                        <td>Colombia VS Japan</td>
+                        <td>Japan</td>
+                        <td>Colombia</td>
+                        <td>Colombia</td>
+                        <td>Colombia</td>
+                        <td>Colombia</td>
+                        <td>Colombia</td>
+                        <td>Colombia</td>
+                        <td>Colombia</td>
+                        <td bgcolor="green">Japan</td>
+                    </tr>
+                    <tr>
+                        <td>Poland VS Senegal</td>
+                        <td>Senegal</td>
+                        <td>Draw</td>
+                        <td bgcolor="green">Senegal</td>
+                        <td bgcolor="green">Senegal</td>
+                        <td>Poland</td>
+                        <td>Poland</td>
+                        <td>Poland</td>
+                        <td>Poland</td>
+                        <td>Poland</td>
+                    </tr>
+                    <tr>
+                        <td>Russia VS Egypt</td>
+                        <td>Russia</td>
+                        <td>Egypt</td>
+                        <td>Draw</td>
+                        <td bgcolor="green">Russia</td>
+                        <td bgcolor="green">Russia</td>
+                        <td bgcolor="green">Russia</td>
+                        <td bgcolor="green">Russia</td>
+                        <td>Egypt</td>
+                        <td bgcolor="green">Russia</td>
+                    </tr>
+                    <tr>
+                        <td>Protugal VS Morocco</td>
+                        <td>Protugal</td>
+                        <td bgcolor="green">Protugal</td>
+                        <td bgcolor="green">Protugal</td>
+                        <td bgcolor="green">Protugal</td>
+                        <td bgcolor="green">Protugal</td>
+                        <td bgcolor="green">Protugal</td>
+                        <td bgcolor="green">Protugal</td>
+                        <td bgcolor="green">Protugal</td>
+                        <td bgcolor="green">Protugal</td>
+                    </tr>
+                    <tr>
+                        <td>Uruguay VS Saudi Arabia</td>
+                        <td>Uruguay</td>
+                        <td bgcolor="green">Uruguay</td>
+                        <td bgcolor="green">Uruguay</td>
+                        <td bgcolor="green">Uruguay</td>
+                        <td bgcolor="green">Uruguay</td>
+                        <td bgcolor="green">Uruguay</td>
+                        <td bgcolor="green">Uruguay</td>
+                        <td bgcolor="green">Uruguay</td>
+                        <td bgcolor="green">Uruguay</td>
+
+                    </tr>
+                    <tr>
+                        <td>Iran VS Spain</td>
+                        <td>Spain</td>
+                        <td bgcolor="green">Spain</td>
+                        <td bgcolor="green">Spain</td>
+                        <td bgcolor="green">Spain</td>
+                        <td bgcolor="green">Spain</td>
+                        <td bgcolor="green">Spain</td>
+                        <td bgcolor="green">Spain</td>
+                        <td bgcolor="green">Spain</td>
+                        <td bgcolor="green">Spain</td>
+
+                    </tr>
+                    <tr>
+                        <td>France VS Peru</td>
+                        <td>France</td>
+                        <td bgcolor="green">France</td>
+                        <td bgcolor="green">France</td>
+                        <td bgcolor="green">France</td>
+                        <td bgcolor="green">France</td>
+                        <td bgcolor="green">France</td>
+                        <td bgcolor="green">France</td>
+                        <td bgcolor="green">France</td>
+                        <td bgcolor="green">France</td>
+                    </tr>
+                    <tr>
+                        <td>Denmark VS Australia</td>
+                        <td>Draw</td>
+                        <td>Australia</td>
+                        <td bgcolor="green">Draw</td>
+                        <td>Australia</td>
+                        <td>Denmark</td>
+                        <td>Denmark</td>
+                        <td>Denmark</td>
+                        <td bgcolor="green">Draw</td>
+                        <td bgcolor="green">Draw</td>
+                    </tr>
+                    <tr>
+                        <td>Argentina VS Croatia</td>
+                        <td>Croatia</td>
+                        <td>Argentina</td>
+                        <td>Argentina</td>
+                        <td>Draw</td>
+                        <td>Argentina</td>
+                        <td>Argentina</td>
+                        <td>Argentina</td>
+                        <td>Argentina</td>
+                        <td>Argentina</td>
+                    </tr>
+                    <tr>
+                        <td>Brazil VS Costa Rica</td>
+                        <td>Brazil</td>
+                        <td bgcolor="green">Brazil</td>
+                        <td bgcolor="green">Brazil</td>
+                        <td bgcolor="green">Brazil</td>
+                        <td bgcolor="green">Brazil</td>
+                        <td bgcolor="green">Brazil</td>
+                        <td bgcolor="green">Brazil</td>
+                        <td bgcolor="green">Brazil</td>
+                        <td bgcolor="green">Brazil</td>
+
+                    </tr>
+                    <tr>
+                        <td>Nigeria VS Iceland</td>
+                        <td>Nigeria</td>
+                        <td bgcolor="green">Nigeria</td>
+                        <td>Iceland</td>
+                        <td bgcolor="green">Nigeria</td>
+                        <td bgcolor="green">Nigeria</td>
+                        <td>Iceland</td>
+                        <td bgcolor="green">Nigeria</td>
+                        <td bgcolor="green">Nigeria</td>
+                        <td bgcolor="green">Nigeria</td>
+                    </tr>
+                    <tr>
+                        <td>Serbia VS Switzerland</td>
+                        <td>Switzerland</td>
+                        <td>Serbia</td>
+                        <td bgcolor="green">Switzerland</td>
+                        <td bgcolor="green">Switzerland</td>
+                        <td bgcolor="green">Switzerland</td>
+                        <td bgcolor="green">Switzerland</td>
+                        <td bgcolor="green">Switzerland</td>
+                        <td bgcolor="green">Switzerland</td>
+                        <td>Draw</td>
+
+                    </tr>
+                    <tr>
+                        <td>Belgium VS Tunisia</td>
+                        <td>Belgium</td>
+                        <td bgcolor="green">Belgium</td>
+                        <td bgcolor="green">Belgium</td>
+                        <td bgcolor="green">Belgium</td>
+                        <td bgcolor="green">Belgium</td>
+                        <td bgcolor="green">Belgium</td>
+                        <td bgcolor="green">Belgium</td>
+                        <td bgcolor="green">Belgium</td>
+                        <td>Draw</td>
+
+                    </tr>
+                    <tr>
+                        <td>Korea Republic VS Mexico</td>
+                        <td>Mexico</td>
+                        <td bgcolor="green">Mexico</td>
+                        <td bgcolor="green">Mexico</td>
+                        <td>Korean Republic</td>
+                        <td bgcolor="green">Mexico</td>
+                        <td bgcolor="green">Mexico</td>
+                        <td bgcolor="green">Mexico</td>
+                        <td>Draw</td>
+                        <td>Draw</td>
+
+                    </tr>
+                    <tr>
+                        <td>Germany VS Sweden</td>
+                        <td>Germany</td>
+                        <td bgcolor="green">Germany</td>
+                        <td bgcolor="green">Germany</td>
+                        <td>Sweden</td>
+                        <td bgcolor="green">Germany</td>
+                        <td bgcolor="green">Germany</td>
+                        <td bgcolor="green">Germany</td>
+                        <td bgcolor="green">Germany</td>
+                        <td bgcolor="green">Germany</td>
+
+                    </tr>
+                    <tr>
+                        <td>England VS Panama</td>
+                        <td>England</td>
+                        <td bgcolor="green">England</td>
+                        <td bgcolor="green">England</td>
+                        <td bgcolor="green">England</td>
+                        <td bgcolor="green">England</td>
+                        <td bgcolor="green">England</td>
+                        <td bgcolor="green">England</td>
+                        <td bgcolor="green">England</td>
+                        <td bgcolor="green">England</td>
+
+                    </tr>
+                    <tr>
+                        <td>Japan VS Senegal</td>
+                        <td></td>
+                    
+
+                    </tr>
+                    <tr>
+                        <td><font color="red"><strong>Total Points</strong></font></td>
+                        <td></td>
+                        <td><font color="red"><strong>14</strong></font></td>
+                        <td><font color="red"><strong>16</strong></font></td>
+                        <td><font color="red"><strong>16</strong></font></td>
+                        <td bgcolor="orange"><font color="red"><strong>20</strong></font></td>
+                        <td><font color="red"><strong>19</strong></font></td>
+                        <td><font color="red"><strong>18</strong></font></td>
+                        <td><font color="red"><strong>16</strong></font></td>
+                        <td><font color="red"><strong>17</strong></font></td>
+                    </tr>
+
+                </tbody>
+
+
+            </table>
+
+
+        </article>
+    </section>
+    <a class="trigger_popup_fricc">Question about Points ?</a>
+
+    <div class="hover_bkgr_fricc">
+        <span class="helper"></span>
+        <div>
+            <div class="popupCloseButton">X</div>
+            <p>Games and Points will be updated everynight at 8pm. It will take about 10-15 minuties. <br />Till then <b>Happy Bidding</b><br />Thank You !!! <br /><hr />Jharpaat Gang.</p>
+        </div>
+    </div>
+
+    <div class="content">
+        <h5>Funny Video</h5>
+        <p>Momentos Engraçados do Futebol | Para Morrer de Rir <a href="https://www.facebook.com/loucosporbola1/videos/1993207690916577/?t=0">Link</a></p>
+
+        <hr />
+        <a href="https://www.facebook.com/100010076083854/videos/663026554043208/"></a>
+    </div>
+
+
+    <footer class="page-footer">
+        <marquee>
+            &copy;<span id="copyright">
+                <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+            </span> Jhaarpaat Official
+        </marquee>
+    </footer>
+</body>
+</html>
